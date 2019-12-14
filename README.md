@@ -14,4 +14,5 @@ Linux, CUDA, CUDNN, OpenCV
 wget https://pjreddie.com/media/files/yolov3.weights
 
 ## Test with: 
-./darknet detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights data/dog.jpg
+./darknet detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights data/dog.jpg  
+./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights
